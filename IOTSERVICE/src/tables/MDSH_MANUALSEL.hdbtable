@@ -1,0 +1,1 @@
+COLUMN TABLE "MDSH_MANUALSEL" ("manualSelection_id" DOUBLE   NOT NULL , "manualSelection_desc" NVARCHAR(100), PRIMARY KEY ("manualSelection_id")) UNLOAD PRIORITY 5  AUTO MERGE 

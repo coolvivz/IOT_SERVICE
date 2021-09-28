@@ -1,0 +1,1 @@
+COLUMN TABLE "TDSH_K04PAUSELID"  ("deviceId" VARCHAR(255), "g_device" VARCHAR(255), "c_progknobraw" DOUBLE  , "beginpause" LONGDATE  , "endpause" LONGDATE  , "pausediff" DOUBLE  , "pausecnt" INTEGER , "cicloid" DOUBLE  ) UNLOAD PRIORITY 5  AUTO MERGE 

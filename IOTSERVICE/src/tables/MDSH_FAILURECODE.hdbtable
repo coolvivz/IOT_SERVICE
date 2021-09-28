@@ -1,0 +1,1 @@
+COLUMN TABLE "MDSH_FAILURECODE" ("failureCode_id" DOUBLE   NOT NULL , "failureCode_desc" NVARCHAR(100), PRIMARY KEY ("failureCode_id")) UNLOAD PRIORITY 5  AUTO MERGE 

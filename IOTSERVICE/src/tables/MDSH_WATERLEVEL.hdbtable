@@ -1,0 +1,1 @@
+COLUMN TABLE "MDSH_WATERLEVEL" ("waterLevel_id" DOUBLE   NOT NULL , "waterLevel_desc" NVARCHAR(100), PRIMARY KEY ("waterLevel_id")) UNLOAD PRIORITY 5  AUTO MERGE 

@@ -1,0 +1,1 @@
+COLUMN TABLE "mabe.iot.data::LOG_LOG" ("txt" NVARCHAR(5000), "object" NVARCHAR(50), "time" LONGDATE  ) UNLOAD PRIORITY 5  AUTO MERGE 

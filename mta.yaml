@@ -1,0 +1,19 @@
+_schema-version: "2.1"
+ID: IOT_SERVICE_PRJ
+version: 0.0.1
+modules:
+- name: IOTSERVICE
+  type: hdb
+  path: IOTSERVICE
+  requires:
+  - name: hdi_IOTSERVICE
+    properties:
+      TARGET_CONTAINER: ~{hdi-container-name}
+resources:
+- name: hdi_IOTSERVICE
+  type: com.sap.xs.hdi-container
+  parameters:
+    config:
+      schema: IOT_SERVICE
+  properties:
+    hdi-container-name: ${service-name}

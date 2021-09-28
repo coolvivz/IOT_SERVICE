@@ -1,0 +1,1 @@
+COLUMN TABLE "MDSH_ENERGYSAVER" ("energySaver_id" DOUBLE   NOT NULL , "energySaver_desc" NVARCHAR(100), PRIMARY KEY ("energySaver_id"))

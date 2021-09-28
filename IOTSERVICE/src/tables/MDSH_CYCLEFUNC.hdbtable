@@ -1,0 +1,1 @@
+COLUMN TABLE "MDSH_CYCLEFUNC" ("cycleFunc_id" DOUBLE  NOT NULL , "cycleFunc_desc" NVARCHAR(100), PRIMARY KEY ("cycleFunc_id"))

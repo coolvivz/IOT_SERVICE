@@ -1,0 +1,1 @@
+COLUMN TABLE "mabe.iot.data::BE_USER" ("username" NVARCHAR(12) NOT NULL , "password" NVARCHAR(100), PRIMARY KEY ("username")) UNLOAD PRIORITY 5  AUTO MERGE 

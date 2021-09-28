@@ -1,0 +1,1 @@
+COLUMN TABLE "mabe.iot.data::IOT_CYCLES" ("cycloID" NVARCHAR(50) NOT NULL , "g_device" NVARCHAR(255), "beginCycle" LONGDATE  , "endCycle" LONGDATE  , PRIMARY KEY ("cycloID")) UNLOAD PRIORITY 5  AUTO MERGE 

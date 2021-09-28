@@ -1,0 +1,1 @@
+COLUMN TABLE "mabe.iot.data::IOT_DEVICE_TYPES" ("typeId" NVARCHAR(50) NOT NULL , "wifiType" NVARCHAR(100) NOT NULL , "token" NVARCHAR(50), "messageType" NVARCHAR(50), "skuNumber" NVARCHAR(100), "platform" NVARCHAR(25), PRIMARY KEY ("typeId", "wifiType")) UNLOAD PRIORITY 5  AUTO MERGE 

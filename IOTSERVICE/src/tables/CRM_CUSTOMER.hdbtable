@@ -1,0 +1,1 @@
+COLUMN TABLE "mabe.iot.data::CRM_CUSTOMER" ("userID" NVARCHAR(50) NOT NULL , "email" NVARCHAR(100) NOT NULL , "lastName" NVARCHAR(70), "firstName" NVARCHAR(70), "bpID" NVARCHAR(10), "zipCode" NVARCHAR(10), "RegisterTime" LONGDATE  , PRIMARY KEY ("userID", "email")) UNLOAD PRIORITY 5  AUTO MERGE 

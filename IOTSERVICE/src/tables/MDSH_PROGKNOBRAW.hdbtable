@@ -1,0 +1,1 @@
+COLUMN TABLE "MDSH_PROGKNOBRAW" ("progknobraw_id" DOUBLE   NOT NULL , "progknobraw_desc" NVARCHAR(100), PRIMARY KEY ("progknobraw_id")) UNLOAD PRIORITY 5  AUTO MERGE 

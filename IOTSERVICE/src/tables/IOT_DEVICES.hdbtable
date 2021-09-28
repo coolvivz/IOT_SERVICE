@@ -1,0 +1,1 @@
+COLUMN TABLE "mabe.iot.data::IOT_DEVICES" ("g_device" NVARCHAR(255) NOT NULL , "deviceId" NVARCHAR(100) NOT NULL , "wifiType" NVARCHAR(100), "token" NVARCHAR(50), "serialNumber" NVARCHAR(100), "skuNumber" NVARCHAR(100), "platform" NVARCHAR(25), PRIMARY KEY ("g_device", "deviceId")) UNLOAD PRIORITY 5  AUTO MERGE 
